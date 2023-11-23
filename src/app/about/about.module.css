@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Playfair+Display:wght@400;500&display=swap');
+
+.mainAbout,
+.statistic {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    /* flex-direction: column; */
+    display: inline-flex;
+}
+
+.mainAbout .content {
+    display: inline-flex;
+    align-items: center;
+    gap: 90px;
+    margin: 85px 152px;
+}
+
+.mainAbout .content .infoContent {
+    width: 557px;
+}
+
+.mainAbout .content .infoContent h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 55px Playfair Display;
+    line-height: 60.5px;
+    margin-top: 24px;
+}
+
+.mainAbout .content .infoContent h2 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 18px DM Sans;
+    margin-top: 24px;
+}
+
+.mainAbout .content .infoContent p {
+    color: var(--neutral-06, #414536);
+    font: 400 16px DM Sans;
+    margin-top: 24px;
+}
+
+.statistic .textWrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    margin: 152px 138px;
+}
+
+.statistic .textWrapper .text {
+    width: 547px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.statistic .textWrapper .text h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 55px Playfair Display;
+}
+
+.statistic .textWrapper .text p {
+    color: var(--neutral-06, #414536);
+    font: 400 16px DM Sans;
+}
+
+.statistic .textWrapper .statisticsBlock {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 650px;
+    margin-top: 40px;
+}
+
+.statistic .textWrapper .statisticsBlock .item1,
+.item2,
+.item3,
+.item4 {
+    width: 293px;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.statistic .textWrapper .statisticsBlock .item1,
+.item2,
+.item3,
+.item4 h2 {
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font: 500 55px Playfair Display;
+}
+
+.statistic .textWrapper .statisticsBlock .item1,
+.item2,
+.item3,
+.item4 p {
+    text-align: center;
+    font: 500 18px Playfair Display;
+    color: var(--neutral-06, #414536);
+}
