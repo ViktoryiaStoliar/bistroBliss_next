@@ -1,0 +1,65 @@
+.content {
+    margin: 50px;
+    background: var(--neutral-01, #FFF);
+    
+    .text {
+        align-items: center;
+        text-align: center;
+        padding: 80px;
+        // width: 570px;
+
+        h1 {
+            color: var(--neutral-07, #2C2F24);
+            font: 400 100px Playfair Display;
+            line-height: 96px;
+        }
+
+        p {
+            color: var(--neutral-06, #495460);
+            font: 400 18px DM Sans;
+            line-height: 28px;
+        }
+    }
+
+    .cards {
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .card {
+            width: 316px;
+            height: 428px;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            border-radius: 12px;
+            border: 1.5px solid var(--neutral-03, #DBDFD0);
+            background: var(--neutral-01, #FFF);
+        }
+
+        h3 {
+            color: #AD343E;
+            font: 700 24px DM Sans;
+            line-height: 30px;
+            letter-spacing: -0.72px;
+        }
+
+        h2 {
+            color: var(--neutral-07, #2C2F24);
+            font: 700 20px DM Sans;
+            line-height: 26px;
+        }
+
+        p {
+            color: var(--neutral-06, #414536);
+            font: 400 16px DM Sans;
+            line-height: 24px;
+        }
+    }
+
+}

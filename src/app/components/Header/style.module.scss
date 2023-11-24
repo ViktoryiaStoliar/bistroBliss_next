@@ -1,0 +1,103 @@
+.colorTopBar {
+    background-color: #474747;
+
+    .wrapperTopBar {
+        display: inline-flex;
+        padding: 9px 154.316px 8.829px 150px;
+        align-items: center;
+        gap: 831px;
+        height: 36px;
+
+        max-width: 1600px;
+        width: 100%;
+
+        .contacts {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+
+            p {
+                color: var(--neutral-02, #F9F9F7);
+                font: 400 16px DM Sans;
+                line-height: 24px;
+            }
+        }
+
+        .icons {
+            display: flex;
+            gap: 4px;
+        }
+    }
+}
+
+.colorHeader {
+    background-color: #F9F9F7;
+
+    .wrapperHeader {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 129px;
+
+        max-width: 1600px;
+        width: 100%;
+
+        .header {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            gap: 290px;
+            height: 55px;
+
+            .logo {
+                display: inline-flex;
+                gap: 30px;
+
+                h4 {
+                    color: #474747;
+                    font: 600 42.667px Playfair Display;
+                    font-style: italic;
+                }
+            }
+
+            .menuMain {
+                display: inline-flex;
+                gap: 50px;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+
+                .home {
+                    border-radius: 34px;
+                    background-color: #DBDFD0;
+                    padding: 4px 16px;
+                }
+
+                .home,
+                .about,
+                .menu {
+                    color: var(--neutral-07, #2C2F24);
+                    font: 500 16px DM Sans;
+                    line-height: 24px;
+                }
+            }
+
+            .button {
+                border-radius: 118px;
+                border: 1.5px solid var(--neutral-07, #2C2F24);
+                display: inline-flex;
+                padding: 12px 24px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                color: var(--neutral-07, #182226);
+                text-align: right;
+
+                font: 700 16px DM Sans;
+                line-height: 24px;
+            }
+        }
+    }
+}

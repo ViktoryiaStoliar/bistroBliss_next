@@ -1,0 +1,169 @@
+.container {
+     position: relative;
+     max-width: 1600px;
+     width: 100%;
+
+     display: inline-flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     .img {
+         position: absolute;
+         width: 100%;
+        //  height: 100%;
+         z-index: -1;
+         object-fit: cover;
+     }
+
+     .wrapperInfo {
+         max-width: 1296px;
+         padding: 207px 0 202px;
+
+         .block {
+             max-width: 667px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+
+             h1 {
+                 width: 667px;
+                 color: var(--neutral-07, #2C2F24);
+                 text-align: center;
+                 font: 400 100px Playfair Display;
+                 line-height: 96px;
+             }
+
+             p {
+                 width: 537px;
+                 padding-top: 23px;
+                 color: var(--neutral-07, #2C2F24);
+                 text-align: center;
+                 font: 400 20px DM Sans;
+                 line-height: 32px;
+             }
+         }
+
+         .btn {
+             padding-top: 40px;
+             display: flex;
+             gap: 16px;
+
+             .firstBtn {
+                 display: flex;
+                 padding: 20px 32px;
+                 justify-content: center;
+                 align-items: center;
+                 gap: 10px;
+
+                 border-radius: 118px;
+                 background: #AD343E;
+
+                 color: var(--neutral-01, #FFF);
+                 text-align: right;
+                 font: 700 16px DM Sans;
+                 line-height: 24px;
+             }
+
+             .secondBtn {
+                 display: flex;
+                 padding: 20px 32px;
+                 justify-content: center;
+                 align-items: center;
+                 gap: 10px;
+
+                 border-radius: 118px;
+                 border: 1.5px solid var(--neutral-07, #2C2F24);
+
+                 color: var(--neutral-07, #182226);
+                 text-align: right;
+                 font: 700 16px DM Sans;
+                 line-height: 24px;
+             }
+         }
+     }
+ }
+
+ /* menu */
+
+ .colorMenu {
+     background: var(--neutral-01, #FFF);
+
+     .menu {
+         max-width: 1600px;
+         width: 100%;
+         height: 712px;
+         display: inline-flex;
+         flex-direction: column;
+         align-items: center;
+
+         .wrapperMenu {
+             padding: 92px 0 120px;
+             display: inline-flex;
+             flex-direction: column;
+             gap: 65px;
+
+             h2 {
+                 color: var(--neutral-07, #2C2F24);
+                 text-align: center;
+                 font: 500 55px Playfair Display;
+                 line-height: 60.5px;
+                 margin: 92px;
+             }
+         }
+
+         .card {
+             display: inline-flex;
+             align-items: flex-start;
+             gap: 24px;
+
+             .box {
+                 width: 306px;
+                 /* height: 375px; */
+                 padding: 40px 32px 34px;
+                 /* flex-shrink: 0; */
+                 border-radius: 12px;
+                 border: 1.5px solid var(--neutral-03, #DBDFD0);
+                 background: var(--neutral-01, #FFF);
+
+                 display: inline-flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+
+                 h4 {
+                     margin-top: 30px;
+                     color: var(--neutral-07, #2C2F24);
+                     text-align: center;
+                     font: 700 24px DM Sans;
+                     line-height: 30px;
+                     letter-spacing: -0.72px;
+                 }
+
+                 p {
+                     margin-top: 15px;
+                     color: var(--neutral-06, #414536);
+                     text-align: center;
+                     font: 400 16px DM Sans;
+                     line-height: 24px;
+                 }
+
+                 .btn {
+                     margin-top: 30px;
+                     color: #AD343E;
+                     text-align: center;
+                     font: 700 16px DM Sans;
+                     line-height: 24px;
+
+                     display: flex;
+                     width: 111px;
+                     height: 26px;
+                     justify-content: center;
+                     align-items: center;
+                     gap: 10px;
+                     border-radius: 12px;
+                 }
+             }
+         }
+     }
+ }
