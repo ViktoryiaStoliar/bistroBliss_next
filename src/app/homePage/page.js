@@ -1,5 +1,3 @@
-// import Header from "../components/Header/Header";
-// import TopBar from "../components/TopBar/TopBar";
 import style from './homePage.style.module.scss';
 import Image from "next/image";
 import mainDishes from './assets/foodMain.png';
