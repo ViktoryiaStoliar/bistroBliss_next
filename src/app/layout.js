@@ -1,3 +1,4 @@
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header'
 import './globals.scss';
 import { DM_Sans, Playfair_Display } from "next/font/google";
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
