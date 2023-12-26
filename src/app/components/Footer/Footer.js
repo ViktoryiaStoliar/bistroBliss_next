@@ -24,21 +24,31 @@ const Footer = () => {
                         <div className={style.column1}>
                             <div className={style.logo}>
                                 <Image src={food} alt='food'></Image>
-                                <h1>Bistro Bliss</h1>
+                                <div className={style.component}>
+                                    <h1>Bistro Bliss</h1>
+                                </div>
                             </div>
                             <p>In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
                         </div>
                         <div className={style.column2}>
-                            <p>Pages</p>
-                            {pages.map((el, i) => <p key={i}>{el}</p>)}
+                            <div className={style.col2}>
+                                <h3>Pages</h3>
+                                <div className={style.list}>
+                                    {pages.map((el, i) => <p key={i}>{el}</p>)}
+                                </div>
+                            </div>
+                            <div className={style.col3}>
+                                <h3>Utility Pages</h3>
+                                <div className={style.list}>
+                                    {utillity.map((el, i) => <p key={i}>{el}</p>)}
+                                </div>
+                            </div>
                         </div>
                         <div className={style.column3}>
-                            <p>Utility Pages</p>
-                            {utillity.map((el, i) => <p key={i}>{el}</p>)}
-                        </div>
-                        <div className={style.column4}>
-                            <p>Utility Pages</p>
-                            {img.map((el, i) => <Image key={i} src={el.imgPath} alt={el.imgName}></Image>)}
+                            <h3>Utility Pages</h3>
+                            <div className={style.img}>
+                                {img.map((el, i) => <Image key={i} src={el.imgPath} alt={el.imgName}></Image>)}
+                            </div>
                         </div>
                     </div>
 
